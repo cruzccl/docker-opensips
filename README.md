@@ -29,6 +29,7 @@ make start
 You can set different variables to tune your deployment:
  * `OPENSIPS_VERSION` - sets the opensips version (Default: `3.1`)
  * `OPENSIPS_BUILD` - specifies the build to use, `nightly` or `releases` (Default: `releases`)
+ * `OPENSIPS_DOCKER_REPO` - indicates the docker repo (Default: `cruzccl`)
  * `OPENSIPS_DOCKER_TAG` - indicates the docker tag (Default: `latest`)
  * `OPENSIPS_CLI` - specifies whether to install opensips-cli (`true`) or not (`false`) (Default: `true`)
  * `OPENSIPS_EXTRA_MODULES` - specifies extra opensips modules to install (Default: no other module)
@@ -36,4 +37,4 @@ You can set different variables to tune your deployment:
 ## Packages on DockerHub
 
 Released docker packages are visible on DockerHub
-https://hub.docker.com/r/opensips/opensips
+https://hub.docker.com/r/cruzccl/opensips
